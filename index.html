@@ -19,29 +19,43 @@
   <style>
     body {
       font-family: sans-serif;
+      margin-top: 4em;
     }
     article {
       margin: auto;
-      width: 20em;
+      width: 40em;
     }
 
     github-icon {
-      margin: auto;
+      float: left;
+    }
+
+    #github-icon {
+      width: 3em;
+      position: fixed;
+      right: 0.25em;
+      top: 0.25em;
     }
   </style>
 </head>
 <body>
+
+<github-icon href="https://github.com/lnsy-dev/simple-github-icon" id="github-icon"></github-icon>
 <article>
   <h1>Simple Github Icons</h1>
   <p>I am not associated with Github. The Github logo is trademarked. Download the original files  <a href="https://github.com/logos">here</a>.</p>
-<div style="width:10em;  aspect-ratio: 1; padding: 2em;">
+<div style="width:10em;  aspect-ratio: 1; padding: 2em; margin:auto;">
 <github-icon  href="https://github.com/lnsy-dev/simple-github-icon.git"></github-icon>
 </div>
-<div style="background-color:black; width: 10em; aspect-ratio: 1; padding: 2em;">
+<div style="background-color:black; width: 10em; aspect-ratio: 1; padding: 2em; margin:auto;">
   <github-icon light href="https://github.com/lnsy-dev/simple-github-icon.git"></github-icon>
 </div>
 
 </article>
+
+<footer style="text-align:center; margin-top: 4em">
+  <a href="https://lnsy.dev/" target="_blank">Hire Me!</a>
+</footer>
 
 
 </body>
