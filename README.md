@@ -1,5 +1,10 @@
 
 # Simple Github Icon
+A custom HTML element to include the github icon in your webpage. 
+
+## Notice
+I am not associated with Github. The Github logo is trademarked. Download the original files  <a href="https://github.com/logos">here</a>.
+
 
 ## Purpose
 
