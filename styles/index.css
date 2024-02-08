@@ -1,9 +1,11 @@
-@import "./reset.css";
-@import "./variables.css";
-
-body {
-  background-color: var(--bg-color);
-  color: var(--fg-color);
-  font-family: monospace;
-  text-align: center;
+github-icon {
+  display: block;
+  aspect-ratio: 1;
+  padding: 0.25em;
 }
+
+github-icon a svg {
+  width: 100%;
+  height: 100%;
+}
+

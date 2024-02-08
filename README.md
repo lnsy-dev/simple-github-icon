@@ -1,16 +1,32 @@
-![Splash Image](./assets/splash.jpg?)
 
-# vanilla-webpack-boilerplate
-For writing passionate Javascript.
+# Simple Github Icon
 
-Boilerplate for vanilla CSS / JS projects. Great for plugins and libraries! 
+## Purpose
 
-## Overview
+I wanted an easy way to include a github link tag to my projects that didn't include downloading github's logo as a png and including it each time. 
 
-Modern Web development has gotten far too complex. Frameworks and ornate build systems have obscured the fact that the fundamentals of JS and CSS have gotten not just slightly better but really, really good. 
+## Prior Work
 
-This project is for people who want to write passionate code and ship it quickly. 
+https://github.com/logos
 
+## How to use
+
+Include the github-icon.min.js code with a script tag and then use the github-icon tag:
+
+```
+<script src="./github-icon.min.js"></script>
+<github-icon href="link to your github repo"></github-icon>
+
+```
+
+This defaults to a dark github icon. If you would like a light github icon, set the **light** attribute:
+
+```
+<github-icon light href="link to your github repo"></github>
+```
+
+
+# Development
 ## Instructions
 
 ```sh
