@@ -18,7 +18,7 @@ https://github.com/logos
 Include the github-icon.min.js code with a script tag and then use the github-icon tag:
 
 ```
-<script src="./github-icon.min.js"></script>
+<script src="https://lnsy-dev.github.io/simple-github-icon/github-icon.min.js"></script>
 <github-icon href="link to your github repo"></github-icon>
 
 ```
