@@ -23,10 +23,18 @@ Include the github-icon.min.js code with a script tag and then use the github-ic
 
 ```
 
-This defaults to a dark github icon. If you would like a light github icon, set the **light** attribute:
+By default, the icon follows your system theme: it uses the dark github icon on light systems and the light github icon on dark systems (via the CSS `prefers-color-scheme` media query).
+
+If you would like to always show a light github icon, set the **light** attribute:
 
 ```
-<github-icon light href="link to your github repo"></github>
+<github-icon light href="link to your github repo"></github-icon>
+```
+
+If you would like to always show a dark github icon, set the **dark** attribute:
+
+```
+<github-icon dark href="link to your github repo"></github-icon>
 ```
 
 

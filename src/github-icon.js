@@ -8,6 +8,7 @@
 
 import github_dark_icon from './github-dark-icon.js';
 import github_light_icon from './github-light-icon.js';
+import github_system_icon from './github-system-icon.js';
 
 class GithubIcon extends HTMLElement {
   connectedCallback(){
@@ -17,11 +18,12 @@ class GithubIcon extends HTMLElement {
       return 
     } 
     
-    const is_light = this.hasAttribute('light');
-    if(is_light){
+    if(this.hasAttribute('light')){
       this.renderIcon(href, github_light_icon);
-    } else {
+    } else if(this.hasAttribute('dark')){
       this.renderIcon(href, github_dark_icon);
+    } else {
+      this.renderIcon(href, github_system_icon);
     }
   }
 
